@@ -41,6 +41,7 @@ const Wrapper = styled.section`
   }
   .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
   }
 `;
@@ -50,7 +51,7 @@ export default function Projects() {
   return (
     <Wrapper>
       <Section>
-        <h1>projects</h1>
+        <h1>Projects</h1>
         <div className="container">
           <div className="project">
             <h2>Marvel Character Finder</h2>
@@ -63,6 +64,18 @@ export default function Projects() {
             <img src="https://res.cloudinary.com/khortsch/image/upload/v1552865933/Screenshot_2019-03-17_16.33.17_Vu4UKX.png" />
             <p>Fully functioning Tic Tac Toe game built in React!</p>
             <p><a href="https://naughty-snyder-e0a800.netlify.com/" target="_blank" >Deployed</a> | <a href="https://github.com/kristinhortsch/react-tic-tac-toe" target="_blank">GitHub</a></p>
+          </div>
+          <div className="project">
+            <h2>Warble (Twitter Clone)</h2>
+            <img src="https://res.cloudinary.com/khortsch/image/upload/v1552866563/Screenshot_2019-03-17_16.49.05_NQM53t.png" />
+            <p>Twitter-esque social media app built in React/Redux. Users must sign up for an account and login before they can access the site. Then they are free to browse popular chirps (posts), search through them by filtering with a search term, and post new chirps.</p>
+            <p><a href="https://naughty-snyder-e0a800.netlify.com/" target="_blank" >Deployed</a> | <a href="https://github.com/kristinhortsch/react-tic-tac-toe" target="_blank">GitHub</a></p>
+          </div>
+          <div className="project">
+            <h2>Last Airbender Notes App</h2>
+            <img src="https://res.cloudinary.com/khortsch/image/upload/v1552875720/Screenshot_2019-03-17_19.21.33_Soear8.png" />
+            <p></p>
+            <p><a href="https://priceless-northcutt-91452f.netlify.com/" target="_blank" >Deployed</a> | <a href="https://github.com/two-time-fool/expert-fiesta" target="_blank">GitHub</a></p>
           </div>
         </div>
       </Section>
