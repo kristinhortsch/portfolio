@@ -61,7 +61,7 @@ export default function About() {
           <img src="https://res.cloudinary.com/khortsch/image/upload/v1552877166/me.jpg" />
         </ImgContainer>
         <ParagraphContainer>
-          <h1>about me</h1>
+          <h1>About Me</h1>
           <p><span className="first">I'm a fullstack JavaScript software developer with a deep love of learning and a passion for problem-solving.<br /><br />As a former first-grade teacher, I learned the importance of collaborative teamwork, the art of remaining calm when everything is falling to pieces, and how to think outside the box. That skillset led me to a pivot into the world of programming, and I’ve never looked back.<br /><br />I’m enthusiastic, self-motivated, and driven by my own curiosity and desire to learn more. I love taking on new challenges and finding different solutions to solve them!</span></p>
         </ParagraphContainer>
       </Div>
