@@ -41,10 +41,10 @@ export default function Home() {
       <h1>Kristin Hortsch</h1>
       <h2>FullStack Software Developer</h2>
       <Div>
-        <a href="https://github.com/kristinhortsch" target="_blank"><img src="src/assets/Github.png" /></a>
-        <a href="https://linkedin.com/in/kristinhortsch" target="_blank"><img src="src/assets/Linkedin.png" /></a>
-        <a href="https://twitter.com/kristinhortsch" target="_blank"><img src="src/assets/Twitter.png" /></a>
-        <a href="mailto:kristinhortsch@gmail.com" target="_blank"><img src="src/assets/Gmail.png" /></a>
+        <a href="https://github.com/kristinhortsch" target="_blank"><img src="https://res.cloudinary.com/khortsch/image/upload/v1552876340/Github.png" /></a>
+        <a href="https://linkedin.com/in/kristinhortsch" target="_blank"><img src="https://res.cloudinary.com/khortsch/image/upload/v1552876340/Linkedin.png" /></a>
+        <a href="https://twitter.com/kristinhortsch" target="_blank"><img src="https://res.cloudinary.com/khortsch/image/upload/v1552876340/Twitter.png" /></a>
+        <a href="mailto:kristinhortsch@gmail.com" target="_blank"><img src="https://res.cloudinary.com/khortsch/image/upload/v1552876379/Gmail.png" /></a>
       </Div>
     </Wrapper>
   );

@@ -58,7 +58,7 @@ export default function About() {
     <Wrapper>
       <Div>
         <ImgContainer>
-          <img src="src/assets/me.jpg" />
+          <img src="https://res.cloudinary.com/khortsch/image/upload/v1552877166/me.jpg" />
         </ImgContainer>
         <ParagraphContainer>
           <h1>about me</h1>
